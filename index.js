@@ -1,1 +1,3 @@
-console.log('Hello')
+const names = ['Alpha', 'Betty']
+
+console.table(names)
