@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "echo dev"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/mhaidarh/project-nodejs/issues"
   },
-  "homepage": "https://github.com/mhaidarh/project-nodejs#readme"
+  "homepage": "https://github.com/mhaidarh/project-nodejs#readme",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "bulma": "0.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.11"
+  }
 }
